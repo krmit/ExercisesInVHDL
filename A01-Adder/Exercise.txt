@@ -1,0 +1,9 @@
+
+Undersök en helladderare!
+======================
+
+Testfall: fulladder_tb.vhdl
+Ingångar: a,b,carry_in
+Utgångar: sum, carry
+
+Vi har här en implementation av en så kallat helladderare. Kompilera koden och undersök testfallet. Förklara varför jag har valt indata så som jag har gjort. Stämmer utgångarnas värden?

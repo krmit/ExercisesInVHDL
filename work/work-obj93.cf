@@ -1,0 +1,10 @@
+v 3
+file "/root/ExercisesInVHDL/Component/" "halfadder.vhdl" "20121209104206.000" "20121209113309.215":
+  entity halfadder at 1( 0) + 0 on 11;
+  architecture behavioral of halfadder at 9( 128) + 0 on 12;
+file "/root/ExercisesInVHDL/A01-Adder/" "fulladder.vhdl" "20121209114150.000" "20121209114347.625":
+  entity fulladder at 1( 0) + 0 on 15;
+  architecture behavior of fulladder at 15( 262) + 0 on 16;
+file "/root/ExercisesInVHDL/A01-Adder/" "fulladder_tb.vhdl" "20121209115046.000" "20121209115123.324":
+  entity fulladder_tb at 2( 35) + 5 on 19;
+  architecture behav of fulladder_tb at 5( 92) + 5 on 20;
