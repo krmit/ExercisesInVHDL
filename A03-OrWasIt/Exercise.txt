@@ -1,0 +1,17 @@
+
+Eller, eller och eller!
+======================
+
+Testfall: oror_tb.vhdl
+Ingångar: a,b,c,d
+Utgångar: OrAll
+
+Gör så att utgången AllOr är falskt endast om alla ingångar är falska, eller om vi skriver det med med Boolesk algebra (a+b)+(c+d)=OrAll.
+
+Redovisa följande saker i din rapport:
+
+1. VHDL koden som löste uppgiften. Det räcker om du tar med de kodrader som du har ändrat.
+
+2. Bifoga den VCD filen som skaps när du kör simuleringen.
+
+3. En motivering till varför du har löst uppgiften, utifrån de signaler som gtkwave visar.
