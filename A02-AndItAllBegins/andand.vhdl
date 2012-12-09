@@ -18,7 +18,5 @@ architecture behavior of andand is
 signal s0,s1: bit:='0';
 begin
 --Your code here!
-	s0 <= a and b;
-	s1 <= c and d;
-	AndAll <= s0 and s1;
+
 end;
