@@ -1,4 +1,7 @@
 v 3
+file "/root/ExercisesInVHDL/A02-AndItAllBegins/" "andand_tb.vhdl" "20121209161655.000" "20121209161658.303":
+  entity andand_tb at 2( 35) + 5 on 23;
+  architecture behav of andand_tb at 5( 86) + 5 on 24;
 file "/root/ExercisesInVHDL/Component/" "halfadder.vhdl" "20121209104206.000" "20121209113309.215":
   entity halfadder at 1( 0) + 0 on 11;
   architecture behavioral of halfadder at 9( 128) + 0 on 12;
@@ -8,3 +11,6 @@ file "/root/ExercisesInVHDL/A01-Adder/" "fulladder.vhdl" "20121209114150.000" "2
 file "/root/ExercisesInVHDL/A01-Adder/" "fulladder_tb.vhdl" "20121209115046.000" "20121209115123.324":
   entity fulladder_tb at 2( 35) + 5 on 19;
   architecture behav of fulladder_tb at 5( 92) + 5 on 20;
+file "/root/ExercisesInVHDL/A02-AndItAllBegins/" "andand.vhdl" "20121209160258.000" "20121209160316.165":
+  entity andand at 1( 0) + 0 on 21;
+  architecture behavior of andand at 15( 232) + 0 on 22;
