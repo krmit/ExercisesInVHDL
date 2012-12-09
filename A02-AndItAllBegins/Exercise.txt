@@ -6,7 +6,7 @@ Testfall: andand_tb.vhdl
 Ingångar: a,b,c,d
 Utgångar: AndAll
 
-Gör så att utgången AllAnd är sant endast om alla ingångar är sanna, eller om vi skriver det med med Boolesk algebra (a+b)+(c+d)=AndAll.
+Gör så att utgången AllAnd är sant endast om alla ingångar är sanna, eller om vi skriver det med med Boolesk algebra (a*b)*(c*d)=AndAll.
 
 Redovisa följande saker i din rapport:
 
