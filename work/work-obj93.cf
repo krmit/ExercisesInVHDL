@@ -11,6 +11,9 @@ file "/root/ExercisesInVHDL/A01-Adder/" "fulladder.vhdl" "20121209114150.000" "2
 file "/root/ExercisesInVHDL/A01-Adder/" "fulladder_tb.vhdl" "20121209115046.000" "20121209115123.324":
   entity fulladder_tb at 2( 35) + 5 on 19;
   architecture behav of fulladder_tb at 5( 92) + 5 on 20;
-file "/root/ExercisesInVHDL/A02-AndItAllBegins/" "andand.vhdl" "20121209160258.000" "20121209160316.165":
-  entity andand at 1( 0) + 0 on 21;
-  architecture behavior of andand at 15( 232) + 0 on 22;
+file "/root/ExercisesInVHDL/A03-OrWasIt/" "oror.vhdl" "20121209174909.000" "20121209174931.124":
+  entity oror at 1( 0) + 0 on 27;
+  architecture behavior of oror at 15( 227) + 0 on 28;
+file "/root/ExercisesInVHDL/A03-OrWasIt/" "oror_tb.vhdl" "20121209175104.000" "20121209175116.810":
+  entity oror_tb at 2( 35) + 5 on 31;
+  architecture behav of oror_tb at 5( 82) + 5 on 32;
