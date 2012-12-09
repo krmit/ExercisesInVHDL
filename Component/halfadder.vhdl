@@ -1,12 +1,8 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
-
 entity halfadder is
-Port ( a : in  STD_LOGIC;
-      b : in  STD_LOGIC;
-      sum : out  STD_LOGIC;
-      carry : out  STD_LOGIC
+Port ( a : in  bit;
+      b : in  bit;
+      sum : out  bit;
+      carry : out  bit
      );
 end halfadder;
 
