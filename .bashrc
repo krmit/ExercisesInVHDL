@@ -31,7 +31,7 @@ alias ...='cd ../..';
 alias ....='cd ../../..';
 
 alias ll='ls -lha';
-alias gc='git commit -m';
+alias gc='git commit -a -m';
 alias gp='git pull';
 alias gg='git push';
 
