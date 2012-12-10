@@ -18,7 +18,5 @@ architecture behavior of aoa is
 signal s0,s1: bit:='0';
 begin
 --Your code here!
-  s0 <= a and b;
-  s1 <= c and d;
-  Product <= s0 or s1;
+
 end;

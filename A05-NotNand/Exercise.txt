@@ -1,11 +1,11 @@
 
 Ahoa!
 =====
-Testfall: aoa_tb.vhdl
+Testfall: notn_tb.vhdl
 Ingångar: a,b,c,d
-Utgångar: Product
+Utgångar: Result,NotResult.
 
-Du har fyra ingångar. Om antingen a och b eller c och d är sanna ska utgången "Product" vara san.
+Använd tre nand grindar för att föra ihop ingångarna och skicka ut resulatet genom utgången Resultat. Du ska också ha en utgång som har det inverterade värdet av Resultst utgången.
 
 Redovisa följande saker i din rapport:
 

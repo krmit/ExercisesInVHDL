@@ -18,7 +18,5 @@ architecture behavior of oror is
 signal s0,s1: bit:='0';
 begin
 --Your code here!
-  s0 <= a or b;
-  s1 <= c or d;
-  OrAll <= s0 or s1;
+
 end;
