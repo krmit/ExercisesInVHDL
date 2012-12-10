@@ -1,0 +1,16 @@
+
+Ahoa!
+=====
+Testfall: aoa_tb.vhdl
+Ingångar: a,b,c,d
+Utgångar: Product
+
+Du har fyra ingångar. Om antingen a och b eller c och d är sanna ska utgången "Product" vara san.
+
+Redovisa följande saker i din rapport:
+
+1. VHDL koden som löste uppgiften. Det räcker om du tar med de kodrader som du har ändrat.
+
+2. Bifoga den VCD filen som skaps när du kör simuleringen.
+
+3. En motivering till varför du har löst uppgiften, utifrån de signaler som gtkwave visar.
