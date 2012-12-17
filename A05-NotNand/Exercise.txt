@@ -1,5 +1,5 @@
 
-Ahoa!
+Not nand!
 =====
 Testfall: notn_tb.vhdl
 Ingångar: a,b,c,d
