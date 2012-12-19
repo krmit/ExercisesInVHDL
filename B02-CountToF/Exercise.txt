@@ -1,0 +1,19 @@
+Räknna till F!
+======================
+
+Testfall: countertof_tb.vhdl
+Ingångar: clock
+Utgångar: Status 
+Komponeter: flipFlop(clock,Q) där
+			clock   är en klocksignal som måste skickas in i flipFlopen.
+		   	Q       är en 1-bits signal. Byter värde varje gång klockan signalen 
+			        positiv kant.
+
+
+
+Gör en räknare med bistabila vippor "Flip Flop" som fungera som en räknare. 
+Räknaren ska ett utvärde som är nolll under  16 klockcyklar och sedan blir den 
+en etta under 16 klockcyklar. 
+
+1. VHDL koden som löste uppgiften. Det räcker om du tar med de kodrader som du har ändrat.
+2. En motivering till varför du har löst uppgiften, utifrån de signaler som gtkwave visar.
