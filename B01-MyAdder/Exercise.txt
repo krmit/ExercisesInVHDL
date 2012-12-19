@@ -1,17 +1,18 @@
 
-Eller, eller och eller!
+Addera med 2-bit!
 ======================
 
 Testfall: oror_tb.vhdl
-Ingångar: a,b,c,d
-Utgångar: OrAll
+Ingångar: a0,a1,b0,b1
+Utgångar: Sum0,Sum1, Carry
+Komponeter: halfadder(a,b,s,c) där
+			a,b en bits som ska adderas.
+			s är summan av dem.
+			c är minnessiffran ("carry") som kommer från additionen.
 
-Gör så att utgången AllOr är falskt endast om alla ingångar är falska, eller om vi skriver det med med Boolesk algebra (a+b)+(c+d)=OrAll.
 
-Redovisa följande saker i din rapport:
+
+a(a0,a1) och b(b0,b1) är två 2-bits tal. Addera dessa med hjälp av halvadderare och ge ifrån dig en summa i Sum(Sum0,Sum1) och en Carry bit.
 
 1. VHDL koden som löste uppgiften. Det räcker om du tar med de kodrader som du har ändrat.
-
-2. Bifoga den VCD filen som skaps när du kör simuleringen.
-
-3. En motivering till varför du har löst uppgiften, utifrån de signaler som gtkwave visar.
+2. En motivering till varför du har löst uppgiften, utifrån de signaler som gtkwave visar.

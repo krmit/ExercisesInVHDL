@@ -1,22 +1,22 @@
 v 3
+file "/root/ExercisesInVHDL/B01-MyAdder/" "adder_tb.vhdl" "20121218201300.000" "20121219000011.006":
+  entity adder_tb at 2( 35) + 5 on 59;
+  architecture behav of adder_tb at 5( 84) + 5 on 60;
+file "/root/ExercisesInVHDL/B01-MyAdder/" "adder.vhdl" "20121219000003.000" "20121219000008.844":
+  entity adder at 1( 0) + 0 on 57;
+  architecture behavior of adder at 17( 277) + 0 on 58;
 file "/root/ExercisesInVHDL/A05-NotNand/" "notn_tb.vhdl" "20121210053934.000" "20121210054102.981":
   entity notn_tb at 2( 35) + 5 on 51;
   architecture behav of notn_tb at 5( 82) + 5 on 52;
 file "/root/ExercisesInVHDL/A02-AndItAllBegins/" "andand_tb.vhdl" "20121209161655.000" "20121209161658.303":
   entity andand_tb at 2( 35) + 5 on 23;
   architecture behav of andand_tb at 5( 86) + 5 on 24;
-file "/root/ExercisesInVHDL/Component/" "halfadder.vhdl" "20121209104206.000" "20121209113309.215":
-  entity halfadder at 1( 0) + 0 on 11;
-  architecture behavioral of halfadder at 9( 128) + 0 on 12;
 file "/root/ExercisesInVHDL/A01-Adder/" "fulladder.vhdl" "20121209114150.000" "20121209114347.625":
   entity fulladder at 1( 0) + 0 on 15;
   architecture behavior of fulladder at 15( 262) + 0 on 16;
 file "/root/ExercisesInVHDL/A01-Adder/" "fulladder_tb.vhdl" "20121209115046.000" "20121209115123.324":
   entity fulladder_tb at 2( 35) + 5 on 19;
   architecture behav of fulladder_tb at 5( 92) + 5 on 20;
-file "/root/ExercisesInVHDL/A03-OrWasIt/" "oror.vhdl" "20121209174909.000" "20121209174931.124":
-  entity oror at 1( 0) + 0 on 27;
-  architecture behavior of oror at 15( 227) + 0 on 28;
 file "/root/ExercisesInVHDL/A03-OrWasIt/" "oror_tb.vhdl" "20121209175104.000" "20121209175116.810":
   entity oror_tb at 2( 35) + 5 on 31;
   architecture behav of oror_tb at 5( 82) + 5 on 32;
@@ -29,3 +29,6 @@ file "/root/ExercisesInVHDL/A04-AndOrAnd/" "aoa_tb.vhdl" "20121209184456.000" "2
 file "/root/ExercisesInVHDL/A05-NotNand/" "notn.vhdl" "20121210054048.000" "20121210054057.128":
   entity notn at 1( 0) + 0 on 49;
   architecture behavior of notn at 16( 255) + 0 on 50;
+file "/root/ExercisesInVHDL/B01-MyAdder/" "../Component/halfadder.vhdl" "20121218045825.000" "20121218235830.144":
+  entity halfadder at 1( 0) + 0 on 53;
+  architecture behavioral of halfadder at 9( 128) + 0 on 54;

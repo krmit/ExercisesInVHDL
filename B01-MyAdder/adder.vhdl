@@ -2,22 +2,22 @@ LIBRARY work;
 USE work.all;
 
 --Declarations of in and out signals
-entity oror is
+entity adder is
 port (a0 : in bit;
       a1 : in bit;
       b0 : in bit;
       b1 : in bit;
       Sum0 : out bit;
       Sum1 : out bit;
-      Carry : out bit;
+      Carry : out bit
       );
-end oror;
+end adder;
 
 --Declaration of  architecture.
-architecture behavior of oror is
+architecture behavior of adder is
 
 --Your internal signal here
-signal s0,s1,c0,c1: bit:='0';
+signal s0,s1,c0,c1,c2: bit:='0';
 begin
 --Your code here!
 
