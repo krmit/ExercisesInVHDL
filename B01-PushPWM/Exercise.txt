@@ -1,0 +1,22 @@
+
+Sätt igång en motor!
+======================
+
+Testfall: ppwm_tb.vhdl
+Ingångar: a,b,c,clock
+Utgångar: Puls
+Komponeter: pwm_simpel(c,s,p) där
+			c är en klocksignal som mäste skickas in pwm komponeten.
+			s är en 1-bits signal. Är den san så skickas en puls ut.
+			p är en puls som skickas ut och som kommer ha en medelspäning 
+			  som är hälften så stor som referenspäningen. Och en 
+			  frekevens som kommer vara en sextondel av clocksignalens 
+			  frekvens.
+
+
+
+I en fabrik har man tre sensorer. Alla sensorer måste vara gröna för att motorn 
+ska kunna köras. Motor ska drivas av en PWM puls som är halva referenspäningen. 
+
+1. VHDL koden som löste uppgiften. Det räcker om du tar med de kodrader som du har ändrat.
+2. En motivering till varför du har löst uppgiften, utifrån de signaler som gtkwave visar.
