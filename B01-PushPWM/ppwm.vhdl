@@ -1,13 +1,15 @@
 LIBRARY work;
 USE work.all;
+library IEEE;                 
+use IEEE.std_logic_1164.all;
 
 --Declarations of in and out signals
 entity ppwm is
-port (a : in bit;
-      b : in bit;
-      c : in bit;
-      clock : in bit;
-      Puls : out bit
+port (a : in STD_LOGIC ;
+      b : in STD_LOGIC ;
+      c : in STD_LOGIC ;
+      clock : in STD_LOGIC ;
+      Puls : out STD_LOGIC 
       );
 end ppwm;
 
@@ -15,10 +17,11 @@ end ppwm;
 architecture behavior of ppwm is
 
 --Your internal signal here
-signal s0,s1 bit:='0';
+signal s0,s1 : STD_LOGIC :='0';
 begin
 --Your code here!
 
-PWM1 : entity work.pwm_simpel port map(clock,(a and b) and c,Puls);
+s0 <= (a and b) and c;
+PWM1 : entity work.pwm_simpel port map(clock,s0,Puls);
 
 end;

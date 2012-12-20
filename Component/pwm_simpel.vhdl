@@ -1,20 +1,24 @@
-entity counter is 
-port(  clock:  in bit;
-  reset:  in bit;
-  count:  out bit_vector(3 downto 0)
-);
-end counter;
+library IEEE;                 
+use IEEE.std_logic_1164.all;  
 
-architecture behav of counter is         
-  signal pre_count: bit_vector(3 downto 0);
-  begin
-    process(clock, enable, reset)
-    begin
-      if reset = '1' then
-        pre_count <= "0000";
-      elsif (clock='1' and clock'event) then
-          pre_count <= pre_count + "1";
-      end if;
-    end process;  
-    count <= pre_count;
-end behav;
+entity pwm_simpel is 
+port(  clock:  in STD_LOGIC;
+       enable: in STD_LOGIC;
+       Puls:  out STD_LOGIC
+);
+end pwm_simpel;
+
+architecture behavior of pwm_simpel is
+
+--Your internal signal here
+signal s0,s1, s2, s3 : STD_LOGIC:='0';
+begin
+
+		FF0 : entity work.flipFlop port map(clock,s0);
+		FF1 : entity work.flipFlop port map(s0,s1);
+		FF2 : entity work.flipFlop port map(s1,s2);
+		FF3 : entity work.flipFlop port map(s2,s3);
+		
+		Puls <= s3 and enable;
+
+end;
