@@ -4,12 +4,12 @@
   entity flipFlop is           
      port (                     
         clock: in STD_LOGIC;           
-          Q : out STD_LOGIC    
+          Q : out STD_LOGIC :='0'   
      );
   end flipFlop;
  
   architecture behaviour of flipFlop is  
-  signal state : std_logic :='0';                                 
+  signal state : std_logic :='1';                                 
  
   begin
       process(clock)               

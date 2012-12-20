@@ -19,9 +19,10 @@ signal s0,s1, s2, s3 : STD_LOGIC:='0';
 begin
 --Your code here!
 
-FF0 : entity work.flipFlop port map(clock,s0);
-FF1 : entity work.flipFlop port map(s0,s1);
-FF2 : entity work.flipFlop port map(s2,s3);
-FF3 : entity work.flipFlop port map(s3,Status);
+   FF0 : entity work.flipFlop port map(clock,s0);
+   FF1 : entity work.flipFlop port map(s0,s1);
+   FF2 : entity work.flipFlop port map(s1,s2);
+   FF3 : entity work.flipFlop port map(s2,s3);
+   FF4 : entity work.flipFlop port map(s3,Status);
 
 end;
