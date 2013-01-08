@@ -1,0 +1,30 @@
+
+Addera med 2-bit!
+======================
+
+Testfall: mim_tb.vhdl
+Ingångar: i,clocka
+Utgångar: o, clocka_ut, a0,a1,a2,a3,a4,a5,a6,a7,d0,d1,d2,d3,d4,d5,d6,d7, m
+Komponeter: halfadder(a,b,s,c) där
+			i är en insignal. Varje tecken är 8 bit lång.
+			o är en utsignal.
+			a0-a7 är utgångar som ska ställa in addressen på ett SDRAM minne.
+			d0-d7 är utgångar 
+			m om är 1 så ska minne aktiveras och minnas d0-d7, annars ska minnet 
+			vara oförändrat.
+
+
+
+En sändare, som vi kallar Alice, vill skickar en signal till en motagare som vi
+kallar Bob. Eftersom det är något problem med kommunikationen behöver du lyssna 
+av deras kommunikation för att rätta till felet. De kommuncerar via en 
+serielldatabus som består av en data signal och en klocksignal. Du behöver 
+bryta deras ledningar utan att det märks, sedan spara varje tecken i ett minne. 
+Minnet som är av SDRAM typ använder sig av en 8-bits adress (a0-a7) och varje 
+minnes cell är 8-bit (d0-d7). 
+
+Tips! In signalen måste som är seriell, måste göras om till en parallel signal 
+med hjälp av ett register.
+
+1. VHDL koden som löste uppgiften. Det räcker om du tar med de kodrader som du har ändrat.
+2. En motivering till varför du har löst uppgiften, utifrån de signaler som gtkwave visar.
