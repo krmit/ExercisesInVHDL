@@ -6,7 +6,7 @@ Testfall: ppwm_tb.vhdl
 Ingångar: a,b,c,clock
 Utgångar: Puls
 Komponeter: pwm_simpel(c,s,p) där
-			c är en klocksignal som mäste skickas in pwm komponeten.
+			c är en klocksignal som måste skickas in pwm komponeten.
 			s är en 1-bits signal. Är den sann så skickas en puls ut.
 			p är en puls som skickas ut och som kommer ha en medelspäning 
 			  som är hälften så stor som referenspäningen. Och en 
