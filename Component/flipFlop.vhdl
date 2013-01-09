@@ -19,4 +19,4 @@
                 Q <= state;         
           end if;                 
       end process;
-  end behaviour;                  
+  end behaviour;  
